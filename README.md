@@ -1,51 +1,51 @@
-# Visão de Cores para Deuteranopia
+### **Color Vision for Deuteranopia**
 
-Projeto criado para disciplina Fundamentos de Inteligência Artificial (FIA) - Graduação, pelos alunos Thiago Nunes Batista e Eduardo Gonçalves Souza.
-
----
-
-## 📘 Sobre o Projeto
-
-Este projeto utiliza Inteligência Artificial com Visão Computacional para identificar cores em tempo real e exibi-las de duas formas:
-
-1. Cor Detectada — Como a cor é vista por pessoas sem daltonismo.
-2. Simulação de Deuteranopia — Como a cor é vista por pessoas com deuteranopia (um tipo de daltonismo que afeta a percepção das cores verde e vermelho).
-
-A ideia para este projeto surgiu a partir de uma experiência pessoal: um familiar próximo possui deuteranopia. A solução visa promover a inclusão e acessibilidade, além de sensibilizar as pessoas sobre como é a visão de quem tem essa condição.
-
-O código detecta tons de verde em uma imagem no formato HSV (Hue, Saturation, Value) e simula a visão de deuteranopia, mudando a percepção de verde para como uma pessoa com essa condição enxerga.
-
-Importante salientar que para o código funcionar corretamente é necessário estar em um ambiente com boa iluminação.
+A project created for the Fundamentals of Artificial Intelligence (FIA) course - Undergraduate, by students Thiago Nunes Batista and Eduardo Gonçalves Souza.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## About the Project
 
-- Identificação de cores em tempo real por meio de uma webcam ou câmera integrada.
-- Simulação da visão de deuteranopia para ajudar pessoas sem daltonismo a compreenderem as diferenças perceptivas.
-- Educação e Sensibilização — Mostrar, de forma prática e visual, como a deuteranopia impacta a percepção de cores.
+This project uses Artificial Intelligence with Computer Vision to identify colors in real-time and display them in two ways:
+
+1. **Detected Color:** How the color is seen by people without color blindness.
+2. **Deuteranopia Simulation:** How the color is seen by people with deuteranopia (a type of color blindness that affects the perception of green and red colors).
+
+The idea for this project came from a personal experience: a close family member has Deuteranopia. The solution aims to promote inclusion and accessibility, as well as raise awareness about how people with this condition see the world.
+
+The code detects shades of green in an image in HSV (Hue, Saturation, Value) format and simulates Deuteranopic vision by changing the perception of green to how a person with this condition sees it.
+
+It's important to note that for the code to work correctly, it's necessary to be in an environment with good lighting.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Project Objectives
 
-- **Python** — Linguagem principal, incluindo o uso de tipos de dados da biblioteca padrão (`typing`, `List`, `Tuple`, etc.).
-- **OpenCV** — Para captura de imagem e manipulação de cores.
-- **NumPy** — Para operações de matriz e cálculo de cores.
+- Real-time color identification using a webcam or built-in camera.
+- Simulation of deuteranopic vision to help people without color blindness understand the perceptual differences.
+- Education and Awareness - To show, in a practical and visual way, how deuteranopia impacts color perception.
 
 ---
 
-## Instalação de Dependências
+## ️ Technologies Used
 
-Instale as dependências listadas no arquivo `requirements.txt` com o comando abaixo:
+- **Python:** Main language, including the use of data types from the standard library (`typing`, `List`, `Tuple`, etc.).
+- **OpenCV:** For image capture and color manipulation.
+- **NumPy:** For matrix operations and color calculations.
+
+---
+
+## Installation of Dependencies
+
+Install the dependencies listed in the `requirements.txt` file with the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Execução do projeto
+## Running the Project
 
-Execute o comando abaixo para executar o projeto:
+Run the following command to execute the project:
 
 ```bash
 python main.py
